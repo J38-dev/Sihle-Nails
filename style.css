@@ -428,7 +428,24 @@ HEADER
 
     background:white;
 
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    border:3px solid rgba(255,255,255,.9);
+
     box-shadow:var(--shadow);
+
+}
+
+.logo-image img{
+
+    width:100%;
+    height:100%;
+
+    object-fit:cover;
+
+    border-radius:50%;
 
 }
 
